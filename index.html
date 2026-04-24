@@ -1,17 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Cybersecurity Portfolio</title>
+
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; }
-        h1 { color: #333; }
-        .cta-button { background: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: #020617;
+        }
+        img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        h1 {
+            margin: 10px 0;
+        }
+        section {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+        .links a {
+            margin: 0 10px;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Product</h1>
-    <p>The simplest way to get things done.</p>
-    <br>
-    <a href="#" class="cta-button">Sign Up Now</a>
+
+<header>
+    <!-- 🔹 Add your headshot file to repo and replace filename -->
+    <img src="headshot.jpg" alt="Your Name">
+
+    <h1>Your Name</h1>
+    <p>Cybersecurity Student | SOC & Cloud Enthusiast</p>
+
+    <div class="links">
+        <a href="resume.pdf" target="_blank">Resume</a>
+        <a href="https://linkedin.com/in/YOUR-LINK" target="_blank">LinkedIn</a>
+        <a href="https://github.com/YOUR-USERNAME" target="_blank">GitHub</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am a cybersecurity student with a strong interest in network security, threat detection,
+        and incident response. I am currently studying cybersecurity and building hands-on
+        experience through labs involving Wireshark, Splunk, and Linux systems. I enjoy
+        analyzing security logs and identifying potential threats using real-world frameworks
+        like MITRE ATT&CK and NIST 800. My goal is to pursue a career as a SOC analyst
+        where I can help organizations detect and respond to cyber threats. I am also
+        developing projects to strengthen my skills in cloud security and system monitoring.
+    </p>
+</section>
+
+<section>
+    <h2>Technical Coursework</h2>
+
+    <div class="card">
+        <h3>Intro to Cybersecurity (RIZE)</h3>
+        <p>Learned foundational security principles, threats, and risk management.</p>
+    </div>
+
+    <div class="card">
+        <h3>Network & System Security (RIZE)</h3>
+        <p>Used Wireshark and Splunk to analyze traffic, detect attacks, and investigate logs.</p>
+    </div>
+
+    <div class="card">
+        <h3>Intro to Programming</h3>
+        <p>Built foundational programming skills used for scripting and automation.</p>
+    </div>
+
+    <div class="card">
+        <h3>NIST 800 Framework</h3>
+        <p>Explored security controls and compliance standards for enterprise systems.</p>
+    </div>
+
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <div class="card">
+        <h3>Security Incident Investigation</h3>
+        <p>
+            Analyzed authentication, IDS, and audit logs to detect a brute-force attack
+            and unauthorized access. Built a full attack timeline and mapped activity
+            to MITRE ATT&CK.
+        </p>
+    </div>
+</section>
+
 </body>
 </html>
