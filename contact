@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        a {
+            color: #38bdf8;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Contact Me</h1>
+
+<p>Email: your.email@example.com</p>
+
+<p>LinkedIn: 
+    <a href="https://linkedin.com/in/YOUR-LINK" target="_blank">
+        View Profile
+    </a>
+</p>
+
+<p>GitHub: 
+    <a href="https://github.com/YOUR-USERNAME" target="_blank">
+        View Projects
+    </a>
+</p>
+
+</body>
+</html>
